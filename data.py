@@ -194,13 +194,13 @@ class UserInterface:
             self.hall_of_fame_objects[rank] = [
                 TextObject(
                     position=(settings.play_area_rect.x + 30, height * int(rank)),
-                    color=None, text=f'{rank}.', text_color=(255, 255, 0), font_size=22, positioning='topright'),
+                    color=None, text=f'{rank}.', text_color=(255, 255, 0), font_size=18, positioning='topright'),
                 TextObject(
                     position=(settings.play_area_rect.x + 110, height * int(rank)),
-                    color=None, text=str(score), text_color=(255, 255, 0), font_size=22, positioning='topright'),
+                    color=None, text=str(score), text_color=(255, 255, 0), font_size=18, positioning='topright'),
                 TextObject(
                     position=(settings.play_area_rect.x + 260, height * int(rank)),
-                    color=None, text=name, text_color=(255, 255, 0), font_size=22, positioning='topright')
+                    color=None, text=name, text_color=(255, 255, 0), font_size=18, positioning='topright')
             ]
 
     def draw(self, SCREEN):

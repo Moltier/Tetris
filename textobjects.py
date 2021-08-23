@@ -7,7 +7,7 @@ class TextObject:
     text_color = (255, 255, 255)
 
     def __init__(self, position, color=None, text="", text_color=None,
-                 font_family='comicsans', font_size=24, positioning='topleft', size=None):
+                 font_family='comicsansms', font_size=18, positioning='topleft', size=None):
         self.position = position
         self.positioning = positioning
         self.color = color

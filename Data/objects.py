@@ -60,7 +60,7 @@ score_board = []
 score_height = settings.screen_size[1] / 12
 for n in range(1, 11):
     score_line = TextObject(
-        position=(settings.play_area_rect.x / 2, n * score_height), color=None, text="", font_size=20)
+        position=(settings.play_area_rect.x / 2, n * score_height), color=None, text="", font_size=18)
     score_board.append(score_line)
 
 
